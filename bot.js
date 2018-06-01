@@ -1760,7 +1760,7 @@ client.on('message', message => {
 //choosing///
 client.on('message', message => {
           let args = message.content.split(' ').slice(1);
-   if(message.content.split(' ')[0] == '!!color'){
+   if(message.content.split(' ')[0] == '!ffffffcolor'){
            const embedd = new Discord.RichEmbed()
      .setFooter('Requested by '+message.author.username, message.author.avatarURL)
    .setDescription(`**There's No Color With This Number ** :x: `)
@@ -1777,7 +1777,7 @@ if    (!(message.guild.roles.find("name",`${args}`))) return  message.channel.se
 const embed = new Discord.RichEmbed()
                     
      .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-   .setDescription(`**Color Changed To Successfully** :white_check_mark: `)
+   .setDescription(`**Color Changed  Successfully** :white_check_mark: `)
  
    .setColor(`${a.hexColor}`)
   message.channel.sendEmbed(embed);
