@@ -2407,6 +2407,4 @@ setInterval(function(){})
   }
 });	
 
-
-
-client.login('NDQ3MzYyMzAwNzk4Njk3NDcz.DeoFhQ.6Spqz2T2e7uyeMcZj3_TSbpA3qQ');
+client.login(process.env.BOT_TOKEN);
