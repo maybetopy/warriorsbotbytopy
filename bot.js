@@ -223,7 +223,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: 'Dragon\'s translator',
+                  name: 'Warrior\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -234,7 +234,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "Dragon"
+                  text: "TopyDev"
                 }
               }
             });
